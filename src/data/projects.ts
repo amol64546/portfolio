@@ -1,3 +1,4 @@
+import seatunnelImage from '@/assets/project-seatunnel.jpg';
 export type Project = {
   title: string;
   description: string;
@@ -48,7 +49,7 @@ export const projectsData: Project[] = [
   {
     title: 'Apache Seatunnel',
     description: 'Apache Seatunnel Deployement, Load testing, Implementing wrapper arround it and testing all of its connectors for source, sink and transform. Apache Seatunnel is an distributed data migration, synchronisation and transformation platform.',
-    image: 'https://placehold.co/600x400.png',
+    image: seatunnelImage.src,
     dataAiHint: 'ETL Tool',
     tags: ['Apache-Seatunnel', 'React', 'JavaScript', 'CSS'],
     liveUrl: 'https://amol64546.github.io/seatunnel-web/',

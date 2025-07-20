@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Image, { type StaticImageData } from 'next/image';
 import type { Project } from '@/data/projects';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
 
-export function ProjectCard(project: Project) {
+export function ProjectCard(project: Project & { image: string | StaticImageData }) {
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1.5 border-border/80">
       <div className="aspect-video relative overflow-hidden">
