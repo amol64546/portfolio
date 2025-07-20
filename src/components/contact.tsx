@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Github, Mail } from 'lucide-react';
+import { Github, Mail, Linkedin } from 'lucide-react';
 import { LeetcodeIcon } from '@/components/icons/leetcode';
 
 export function Contact() {
@@ -16,13 +16,18 @@ export function Contact() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Button asChild>
-              <a href="mailto:john.doe@email.com">
+              <a href="mailto:amol64546@gmail.com">
                 <Mail className="mr-2 h-4 w-4" /> Email Me
               </a>
             </Button>
             <Button variant="outline" asChild>
-              <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/amol64546" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-4 w-4" /> GitHub
+              </a>
+            </Button>
+            <Button variant="outline" asChild>
+              <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
               </a>
             </Button>
             <Button variant="outline" asChild>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import profilePic from '../assets/profile-pic.jpg';
 
 export function ProfileCard() {
   return (
@@ -8,8 +9,8 @@ export function ProfileCard() {
         <div className="bg-accent/30 p-8">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <Image
-              src="https://placehold.co/150x150.png"
-              alt="Profile Picture of John Doe"
+              src={profilePic} 
+              alt="Profile Picture of Amol Nakhate"
               width={150}
               height={150}
               className="rounded-full border-4 border-card shadow-lg"
