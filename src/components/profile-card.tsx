@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import profilePic from '../assets/profile-pic.jpg';
+import profilePic from '../assets/profile-pic-2.png';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
