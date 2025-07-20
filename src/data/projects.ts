@@ -1,4 +1,5 @@
 import seatunnelImage from '@/assets/project-seatunnel.jpg';
+import eventImage from '@/assets/project-event.jpg';
 export type Project = {
   title: string;
   description: string;
@@ -13,7 +14,7 @@ export const projectsData: Project[] = [
   {
     title: 'Event Streaming Service',
     description: 'Event Streaming Service for streaming real time data from kafka to client using server sent event protocal.',
-    image: 'https://placehold.co/600x400.png',
+    image: eventImage.src,
     dataAiHint: 'server sent events',
     tags: ['Java', 'Spring-Boot', 'Spring WebFlux', 'Apache Kafka', 'MongoDB'],
     // liveUrl: '#',
