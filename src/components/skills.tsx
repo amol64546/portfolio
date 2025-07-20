@@ -3,17 +3,13 @@ import { Badge } from '@/components/ui/badge';
 import { Code, Database, Cloud, Palette } from 'lucide-react';
 
 const skillsData = {
-  'Front-End': {
-    icon: <Palette className="text-primary" />,
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3', 'JavaScript'],
-  },
   'Back-End': {
     icon: <Database className="text-primary" />,
-    skills: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL', 'MongoDB', 'REST APIs'],
+    skills: ['Java', 'Spring-Boot', 'Apache Kafka', 'Redis', 'PostgreSQL', 'MongoDB', 'Camunda', 'Apache Seatunnel'],
   },
   'DevOps & Cloud': {
     icon: <Cloud className="text-primary" />,
-    skills: ['Docker', 'Firebase', 'Vercel', 'Git', 'CI/CD', 'Google Cloud Platform'],
+    skills: ['Docker', 'Kubernetes', 'Git', 'CI/CD'],
   },
 };
 

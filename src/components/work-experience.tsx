@@ -1,32 +1,21 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
+import company1Pic from '../assets/mobius_by_gaian_logo.jpeg';
 
 const experiences = [
   {
-    role: 'Senior Software Engineer',
-    company: 'Tech Solutions Inc.',
-    duration: 'Jan 2021 - Present',
-    logo: 'https://placehold.co/100x100.png',
+    role: 'Member of Technical Staff - II',
+    company: 'Mobius by Gaian',
+    duration: 'Jun 2023 - Present',
+    logo: company1Pic,
     dataAiHint: 'tech logo',
     responsibilities: [
       'Led the development of a new microservices-based architecture, improving system modularity.',
       'Mentored junior developers and conducted code reviews to maintain code quality.',
       'Optimized application performance, reducing page load times by 30%.',
     ],
-  },
-  {
-    role: 'Software Engineer',
-    company: 'Innovate Co.',
-    duration: 'Jun 2018 - Dec 2020',
-    logo: 'https://placehold.co/100x100.png',
-    dataAiHint: 'company logo',
-    responsibilities: [
-      'Developed and maintained features for a large-scale e-commerce platform using React and Node.js.',
-      'Collaborated with cross-functional teams to define, design, and ship new features.',
-      'Wrote clean, testable, and efficient code, and improved frontend test coverage by 40%.',
-    ],
-  },
+  }
 ];
 
 export function WorkExperience() {

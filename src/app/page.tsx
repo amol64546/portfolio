@@ -2,6 +2,8 @@ import { ProfileCard } from '@/components/profile-card';
 import { Skills } from '@/components/skills';
 import { WorkExperience } from '@/components/work-experience';
 import { Contact } from '@/components/contact';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function AboutPage() {
   return (

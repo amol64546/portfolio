@@ -21,17 +21,17 @@ export function Contact() {
               </a>
             </Button>
             <Button variant="outline" asChild>
+              <a href="https://www.linkedin.com/in/amolnakhate" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
+              </a>
+            </Button>
+            <Button variant="outline" asChild>
               <a href="https://github.com/amol64546" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-4 w-4" /> GitHub
               </a>
             </Button>
             <Button variant="outline" asChild>
-              <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href="https://leetcode.com/johndoe" target="_blank" rel="noopener noreferrer">
+              <a href="https://leetcode.com/u/amol64546/" target="_blank" rel="noopener noreferrer">
                 <LeetcodeIcon className="mr-2 h-4 w-4" /> LeetCode
               </a>
             </Button>
